@@ -1,0 +1,53 @@
+body {
+  background-color: red;
+}
+
+/*
+  You can also change the size of the margins, text and image.
+  */
+#content {
+  margin: 0 auto;
+}
+
+#meme {
+  position: relative;
+  margin: 0 auto;
+}
+
+#meme,
+img {
+  width: 560px;
+}
+
+h1,
+h2 {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 5px 5px 0 #000;
+  filter: dropshadow(color=#000000, offx=5, offy=5);
+}
+
+/*
+  You can change the position of the headings by adjusting the numbers in the "padding-top" attribute. Here they are listed as "px," which stands for pixels. 
+  */
+h1 {
+  color: #fff;
+  font-family: Impact;
+  font-size: 68px;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #fff;
+  font-family: Impact;
+  font-size: 50px;
+  padding-top: 300px;
+}
+
+img {
+  border: 10px solid #000;
+  margin: 20px auto;
+  position: absolute;
+}
